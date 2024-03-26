@@ -118,6 +118,41 @@ main {
     color: #ffffff;
 }
 
+/* About us section */
+
+#about-us {
+    padding: 1rem 0;
+    margin-bottom: 80px;
+    background: url('../images/minimal.webp') center center / cover no-repeat fixed;
+
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+#about-us h2 {
+    color: #ffffff;
+}
+
+.about-us-box {
+    width: 33%;
+    margin: 1rem 0;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+section h3 {
+    color: #ffffff;
+}
+
+p {
+    color:white;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
