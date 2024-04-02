@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* General styles */
@@ -18,9 +19,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
-    text-transform: none;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
@@ -47,17 +48,14 @@ header a {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 /* Navbar styles with dropdown toggle */
 nav {
@@ -84,12 +82,18 @@ nav {
     font-size: 2rem;
 }
 
+#about-us, #method, #signup {
+    scroll-margin-top: 100px;
+}
+
 /* Main content */
 main {
     
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -97,14 +101,13 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background:url("../images/hero-image.jpg") no-repeat center center/cover;
+    background:url("../images/minimal.webp") center center / cover no-repeat;
     position: relative;
 
 }
 
 #cover-text {
-    /* Final Rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(241, 109, 107, .7);
+    
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -112,48 +115,116 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 #cover-text > h2 {
     color: #ffffff;
+    margin: 0 0 1rem 0;
 }
+
 
 /* About us section */
 
+.div-container {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
 #about-us {
-    padding: 1rem 0;
-    margin-bottom: 80px;
-    background: url('../images/minimal.webp') center center / cover no-repeat fixed;
+    padding: 2rem;
 
 }
 
-
-.text-center {
-    text-align: center;
-}
 
 #about-us h2 {
-    color: #ffffff;
+    color: black;
 }
 
 .about-us-box {
-    width: 33%;
     margin: 1rem 0;
-    display: inline-block;
-    position: relative;
-    display: flex;
-    flex-direction: column;
 }
 
 section h3 {
-    color: #ffffff;
+    color: black;
 }
 
 p {
-    color:white;
+    color:black;
 }
 
+/* Method section */
+
+.method {
+    padding: 2rem;
+    background-image: url("../images/signup-image.webp");
+    width: 100%;
+    position: relative;
+}
+
+.div-container-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-content-method {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fafafa;
+}
+
+.text-content-method  h2 {
+    color: #fafafa;
+}
+
+/* Sign up section*/
+
+#signup {
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rgba(241, 237, 239, 0.8);
+    color: black;
+}
+
+
 /* Footer */
+
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -196,12 +267,14 @@ p {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+
     }
 
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+        flex: 1 0 auto;
     }
 
     /* Hero */
@@ -212,6 +285,28 @@ p {
 
     }
 
+    /*Sign up*/
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -220,3 +315,12 @@ p {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/* Media query: screens smaller than 600px */
+@media (max-width: 600px) {
+    .div-container {
+      flex-direction: column;
+      /* Stack children vertically on small screens */
+    }
+  
+  }
