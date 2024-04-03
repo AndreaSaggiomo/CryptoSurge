@@ -19,7 +19,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -52,7 +54,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1.5em;
 }
 
@@ -82,13 +84,15 @@ nav {
     font-size: 2rem;
 }
 
-#about-us, #method, #signup {
+#about-us,
+#method,
+#signup {
     scroll-margin-top: 100px;
 }
 
 /* Main content */
 main {
-    
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -101,13 +105,13 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background:url("../images/minimal.webp") center center / cover no-repeat;
+    background: url("../images/minimal.webp") center center / cover no-repeat;
     position: relative;
 
 }
 
 #cover-text {
-    
+
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -118,7 +122,7 @@ main {
     padding-bottom: 20px;
 }
 
-#cover-text > h2 {
+#cover-text>h2 {
     color: #ffffff;
     margin: 0 0 1rem 0;
 }
@@ -128,8 +132,8 @@ main {
 
 .div-container {
     display: flex;
-   justify-content: space-between;
-   align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -152,14 +156,14 @@ section h3 {
 }
 
 p {
-    color:black;
+    color: black;
 }
 
 /* Method section */
 
 .method {
     padding: 2rem;
-    background-image: url("../images/signup-image.webp");
+    background-color: #252525;
     width: 100%;
     position: relative;
 }
@@ -177,23 +181,36 @@ p {
     color: #fafafa;
 }
 
-.text-content-method  h2 {
+.text-content-method h2 {
     color: #fafafa;
 }
 
 /* Sign up section*/
 
 #signup {
+    background-image: url(../images/signup-image.webp);
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    padding: 2rem;
 }
+
+
+.text-content-signup {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text-content-signup h2 {
+    margin: 0 0 1rem 0;
+}
+
+/* Form */
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    padding: 20px;
 }
 
 #signup-form>h2 {
@@ -242,6 +259,7 @@ p {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -255,7 +273,7 @@ p {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -274,40 +292,9 @@ p {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
-        flex: 1 0 auto;
-    }
-
-    /* Hero */
-
-    #cover-text {
-        width: 300px;
-        right: 50px;
-
-    }
-
-    /*Sign up*/
-
-    #signup {
-        background-position: center;
-        position: relative;
-    }
-
-    #signup-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
     }
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -316,11 +303,24 @@ p {
     }
 }
 
+
+
+
+
+
 /* Media query: screens smaller than 600px */
 @media (max-width: 600px) {
     .div-container {
-      flex-direction: column;
-      /* Stack children vertically on small screens */
+        flex-direction: column;
+        /* Stack children vertically on small screens */
     }
-  
-  }
+    .div-container-method {
+        flex-direction: column;
+        /* Stack children vertically on small screens */
+    }
+    .text-content-signup {
+        flex-direction: column;
+        /* Stack children vertically on small screens */
+    }
+
+}
