@@ -209,13 +209,13 @@ p {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
     padding: 20px;
 }
 
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    
 }
 
 .text-input {
@@ -228,6 +228,8 @@ p {
     border-radius: 2px;
     padding: 0 5px;
 }
+
+
 
 .join-button {
     margin-top: 20px;
@@ -324,3 +326,26 @@ p {
     }
 
 }
+
+/* Media query: screens min 768px */
+@media screen and (min-width: 768px) {
+
+    /* Form */
+    #signup {
+      background-position: center;
+      position: relative;
+    }
+  
+    #signup-form {
+      max-width: 500px;
+    }
+  
+    .text-input:hover {
+      border-color: #f16c6b;
+    }
+  
+    .join-button:hover {
+      background-color: #fafafa;
+      color: #454b1b;
+    }
+  }
