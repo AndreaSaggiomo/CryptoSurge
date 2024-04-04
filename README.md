@@ -98,7 +98,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
   - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page provided the link to the completed website.
 
-The live link can be found here 
+The live link can be found here https://andreasaggiomo.github.io/CryptoSurge/
 
 ## Credits 
 
