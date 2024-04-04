@@ -20,7 +20,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
    - intuitive navigation bar keeps you informed, displaying the brand name and offering clear links to all sections, making finding the information you need a breeze.
   - Say goodbye to back button confusion! This intuitive navigation bar ensures smooth sailing between sections, no matter what device you're using.
 
-![Nav Bar][assets/images-readme/navbar-readme.webp]
+![Nav Bar](assets/images-readme/navbar-readme.webp)
 
 - __The Header__
 
