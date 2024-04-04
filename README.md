@@ -20,7 +20,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
    - intuitive navigation bar keeps you informed, displaying the brand name and offering clear links to all sections, making finding the information you need a breeze.
   - Say goodbye to back button confusion! This intuitive navigation bar ensures smooth sailing between sections, no matter what device you're using.
 
-![Nav Bar](assets/readme-images/navbar-readme.webp)
+![Nav Bar][assets/images-readme/navbar-readme.webp]
 
 - __The Header__
 
@@ -29,7 +29,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
     - A compelling call to action button beckons you to explore further and ultimately, sign up.
   - Know exactly where you've landed! The header clearly communicates the site's purpose and target audience.
 
-![Header](assets/readme-images/header-readme.webp)
+![Header](assets/images-readme/header-readme.webp)
 
 - __The *About-us* section__
 
@@ -38,7 +38,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
 - Market Analysis: Learn to analyze the market and anticipate price movements.
 - Strategic Trading: Choose the best strategy based on current market conditions.
 -  Trading Psychology: Develop emotional control and portfolio management skills for profitable trading.
-![About us](assets/readme-images/story-readme.webp)
+![About us](assets/images-readme/about-us-readme.webp)
 
 - __The *Method* section__
 
@@ -49,14 +49,14 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
 - Emphasize Risk Management: It stresses the importance of stop-loss orders, proper position sizing, and keeping emotions in check.
 - Promote Continuous Improvement: Through trade journaling, you can track your performance, learn from past experiences, and refine your trading strategies.
 - Incorporate Fundamental Analysis: The Wise Method encourages researching factors that influence asset prices, giving you a more holistic view of the market.
-![Method](assets/readme-images/masterclass-readme.webp)
+![Method](assets/images-readme/method-readme.webp)
 
 - __The *Sign up* section__
 
   - The *Sign up* section allow the user to get signed up to the course and start their trading journey. 
   - The sign up form collects the user's first name, last name, email address and phone number.
 
-![Sign up](assets/readme-images/signup-readme.webp)
+![Sign up](assets/images-readme/signup-readme.webp)
 
 - __The Footer__ 
 
@@ -64,7 +64,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
   - The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and increased engagement.
 
-![Footer](assets/readme-images/footer-readme.webp)
+![Footer](assets/images-readme/footer-readme.webp)
 
 ### Features Left to Implement
 
@@ -113,3 +113,5 @@ The live link can be found here
 - The favicon icon displayed next to the page title in the browser tab was taken from [Favicon](https://favicon.io/).
 - The images in the header, our story, masterclass and sign up sections were taken from [Pexels](https://www.pexels.com/).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+[def]: assets/images-readme/navbar-readme.webp
