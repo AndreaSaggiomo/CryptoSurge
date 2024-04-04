@@ -1,39 +1,115 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CryptoSurge, The Wise Method for Crypto Trading
 
-Welcome,
+Are you looking to take your cryptocurrency trading to the next level? Look no further than the Wise Method, a revolutionary approach developed by our team of experts.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+What is the Wise Method?
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The Wise Method is a comprehensive trading strategy designed to help you navigate the ever-changing cryptocurrency market with confidence. It combines fundamental and technical analysis to provide a well-rounded perspective on potential investment
 
-## Codeanywhere Reminders
+![Responsive Mockup](assets/readme-images/responsive-mockup.webp)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features 
 
-`python3 -m http.server`
+### Existing Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __Navigation Bar__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  - The user-friendly navigation bar, positioned conveniently at the top, provides access to the following links:
+    - **Cryptosurge**, The brand name and logo act as a home button in the top left corner
+    - Clear navigation links on the right provide access to **Aboutus** , **Method**, and **Sign Up** sections.
+   - intuitive navigation bar keeps you informed, displaying the brand name and offering clear links to all sections, making finding the information you need a breeze.
+  - Say goodbye to back button confusion! This intuitive navigation bar ensures smooth sailing between sections, no matter what device you're using.
 
-`http_server`
+![Nav Bar](assets/readme-images/navbar-readme.webp)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __The Header__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - The header boasts a stunning photograph with a compelling text overlay, all leading to a clear call to action that invites you to dive in.
+    - The header image, paired with its text overlay, paints a clear picture of the brand's vision.
+    - A compelling call to action button beckons you to explore further and ultimately, sign up.
+  - Know exactly where you've landed! The header clearly communicates the site's purpose and target audience.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Header](assets/readme-images/header-readme.webp)
 
-To log into the Heroku toolbelt CLI:
+- __The *About-us* section__
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  The "About Us" section provides a quick overview of the company's key areas of focus. In this case, it highlights three benefits users can gain:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Market Analysis: Learn to analyze the market and anticipate price movements.
+- Strategic Trading: Choose the best strategy based on current market conditions.
+-  Trading Psychology: Develop emotional control and portfolio management skills for profitable trading.
+![About us](assets/readme-images/story-readme.webp)
 
----
+- __The *Method* section__
 
-Happy coding!
+  The Wise Method is a trading strategy that combines key elements from three popular technical analysis approaches: Support & Resistance (SMC), Market Profile, and Market Cipher. It aims to:
+
+- Boost Trader Confidence: By analyzing historical price behavior, you can identify potential support and resistance zones, allowing for more confident trading decisions.
+- Maximize Daily Profits: The method prioritizes daily profitability over chasing large, infrequent wins.
+- Emphasize Risk Management: It stresses the importance of stop-loss orders, proper position sizing, and keeping emotions in check.
+- Promote Continuous Improvement: Through trade journaling, you can track your performance, learn from past experiences, and refine your trading strategies.
+- Incorporate Fundamental Analysis: The Wise Method encourages researching factors that influence asset prices, giving you a more holistic view of the market.
+![Method](assets/readme-images/masterclass-readme.webp)
+
+- __The *Sign up* section__
+
+  - The *Sign up* section allow the user to get signed up to the course and start their trading journey. 
+  - The sign up form collects the user's first name, last name, email address and phone number.
+
+![Sign up](assets/readme-images/signup-readme.webp)
+
+- __The Footer__ 
+
+  - The footer section includes links to the relevant social media sites: Youtube, Facebook, Instagram and Twitter.
+  - The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and increased engagement.
+
+![Footer](assets/readme-images/footer-readme.webp)
+
+### Features Left to Implement
+
+- Another feature idea
+
+## Testing 
+
+- I tested that this page works in different browsers: Chrome, Firefox and Safari.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the navigation, header, our story, masterclass and sign up text are all readable and easy to understand.
+- I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html).
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+- Accesibility
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools device toolbar.
+  ![Lighthouse](assets/readme-images/lighthouse-analysis.webp)
+
+### Unfixed Bugs
+
+- No unfixed bugs
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab. 
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here - https://solegarciacoach.github.io/project-1-buenavida/
+
+## Credits 
+
+### Content 
+
+- The code to make the navigation bar and sign up section were taken from the [CI Love Running project](https://code-institute-solutions.github.io/love-running-v3/).
+- Instructions on how to implement media queries to make the landing page responsive was taken from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
+- The typography of the website was taken from [Google Fonts](https://fonts.google.com/).
+
+### Media
+
+- The favicon icon displayed next to the page title in the browser tab was taken from [Favicon](https://favicon.io/).
+- The images in the header, our story, masterclass and sign up sections were taken from [Pexels](https://www.pexels.com/).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
