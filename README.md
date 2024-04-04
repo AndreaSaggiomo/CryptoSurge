@@ -85,7 +85,7 @@ The Wise Method is a comprehensive trading strategy designed to help you navigat
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator).
 - Accesibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools device toolbar.
-  ![Lighthouse](assets/readme-images/lighthouse-analysis.webp)
+  ![Lighthouse](assets/images-readme/lighthouse-readme.webp)
 
 ### Unfixed Bugs
 
